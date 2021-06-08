@@ -1,2 +1,41 @@
-@import url();
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 20px 400px;
+}
+
+.upper-header-container {
+  background-color: #0282F9;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upper-header-container a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  font-size: 10px;
+}
+
+.main-header-container .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header-container .wrapper a {
+  text-decoration: none;
+  color: #4C4E4E;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.jumbotron-container {
+  height: 400px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+}
 

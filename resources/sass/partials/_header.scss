@@ -1,0 +1,32 @@
+
+.upper-header-container{
+    background-color: $primary-color;
+    display: flex;
+    justify-content: flex-end;
+
+    a{
+        text-decoration: none;
+        color: white;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+}
+
+.main-header-container{
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: #4C4E4E;
+            padding-left: 20px;
+            font-size: 15px;
+        }
+    }
+}
+
+.jumbotron-container{
+    height: 400px;
+    background-image: url('../../../public/img/jumbotron.jpg');
+}
