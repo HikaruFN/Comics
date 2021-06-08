@@ -39,3 +39,21 @@
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
 }
 
+.main-container {
+  background-color: #1C1C1C;
+}
+
+.current-series {
+  background-color: #0282F9;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: -40px;
+}
+
+.comics-container {
+  display: flex;
+  width: calc(100% / 6);
+}
+
