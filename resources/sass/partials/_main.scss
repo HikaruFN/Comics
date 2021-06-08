@@ -13,5 +13,49 @@
 
 .comics-container{
     display: flex;
-    width: calc(100% / 6);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .comic-card{
+        width: calc( 100% / 6);
+        img{
+            margin-bottom: 10px;
+        }
+        span{
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.load-more-container{
+    display: flex;
+    justify-content: center;
+    .load-more{
+        background-color: $primary-color;
+        padding: 10px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    
+}
+
+.sub-main-container{
+    background-color: $primary-color;
+    .sub-main-nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .sub-main-nav-option{
+            display: flex;
+            align-items: center;
+            color: white;
+            img{
+                width: 50px;
+                margin-right: 10px;
+            }
+        }
+    }
 }

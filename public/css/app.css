@@ -5,7 +5,7 @@
 }
 
 .wrapper {
-  padding: 20px 400px;
+  padding: 20px 300px;
 }
 
 .upper-header-container {
@@ -54,6 +54,57 @@
 
 .comics-container {
   display: flex;
-  width: calc(100% / 6);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.comics-container .comic-card {
+  width: calc( 100% / 6);
+}
+
+.comics-container .comic-card img {
+  margin-bottom: 10px;
+}
+
+.comics-container .comic-card span {
+  color: white;
+  text-transform: uppercase;
+}
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+}
+
+.load-more-container .load-more {
+  background-color: #0282F9;
+  padding: 10px;
+}
+
+.load-more-container .load-more a {
+  color: white;
+  text-decoration: none;
+}
+
+.sub-main-container {
+  background-color: #0282F9;
+}
+
+.sub-main-container .sub-main-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-main-container .sub-main-nav-container .sub-main-nav-option {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.sub-main-container .sub-main-nav-container .sub-main-nav-option img {
+  width: 50px;
+  margin-right: 10px;
 }
 
