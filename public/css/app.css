@@ -108,3 +108,16 @@
   margin-right: 10px;
 }
 
+.footer-continer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-continer .footer-links-container,
+.footer-continer .background-cover-logo-container {
+  width: calc(100% / 2);
+}
+

@@ -1,0 +1,11 @@
+.footer-continer{
+    background-image: url(../../../public/img/footer-bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer-links-container, .background-cover-logo-container{
+        width: calc(100% / 2);
+    }
+
+}
