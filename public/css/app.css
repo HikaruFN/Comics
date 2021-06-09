@@ -176,7 +176,7 @@ a {
   background-color: #55BA59;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   margin-top: 15px;
 }
 
@@ -210,6 +210,50 @@ a {
 
 .comic-description-container p {
   color: #8F887B;
+}
+
+.tea-element-container {
+  display: flex;
+  border-bottom: 1px solid #E7E7E7;
+  padding-bottom: 40px;
+  width: 50%;
+}
+
+.tea-element-container .inner-tea-element-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tea-element-container .inner-tea-element-container span {
+  color: #003F73;
+}
+
+.tea-element-container .artists-links-container {
+  padding-left: 50px;
+}
+
+.tea-element-container .artists-links-container a {
+  color: #0282F9;
+  text-decoration: none;
+}
+
+.tea-element-container h2 {
+  color: #003F73;
+}
+
+.tes-container {
+  height: 500px;
+  border: 1px solid #E7E7E7;
+  background-color: #F6F6F6;
+}
+
+.tes-container .tes-content-container {
+  display: flex;
+}
+
+.tes-container .tes-content-container .talent-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-continer {

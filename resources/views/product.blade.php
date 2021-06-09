@@ -71,11 +71,113 @@
             {{--End Comic Info--}}
 
 
-            
-
-
         </div>
 
         
     </div>
+
+    {{-- Talet and Specs --}}
+
+    <div class="tes-container">
+
+        <div class="wrapper">
+
+            <div class="tes-content-container">
+                 
+                {{-- Talent --}}
+
+                <div class="talent-container">
+
+                    {{-- Title --}}
+
+                    <div class="tea-element-container">
+
+                        <h2>Talent</h2>
+
+                    </div>
+
+                    {{-- End Title --}}
+
+                    {{--Art By--}}
+                    <div class="tea-element-container">
+                        
+                        <div class="inner-tea-element-container">
+                            <span>Art By: </span>
+                        </div>
+
+                        <div class="artists-links-container">
+                            @foreach ($product['artists'] as $item)
+                            <a href="">{{$item}}</a><span>, </span>
+                            @endforeach
+                        </div>
+
+                    </div>
+                    {{-- End Art By--}}
+
+                     {{--Written By--}}
+                     <div class="tea-element-container">
+                        
+                        <div class="inner-tea-element-container">
+                            <span>Written By: </span>
+                        </div>
+                        
+                        <div class="artists-links-container">
+                            @foreach ($product['writers'] as $item)
+                            <a href="">{{$item}}</a><span>, </span>
+                            @endforeach
+                        </div>
+
+                    </div>
+                    {{-- End Written By--}}
+
+                </div>
+
+                {{-- End Talent --}}
+
+                {{-- Specs --}}
+
+                <div class="specs-container">
+
+                    {{-- Title --}}
+
+                    <div class="tea-element-container">
+
+                        <h2>Specs</h2>
+
+                    </div>
+
+                    {{--Art By--}}
+                    <div class="tea-element-container">
+                        
+                        <div class="inner-tea-element-container">
+                            <span>Series: </span>
+                        </div>
+
+                        <div class="artists-links-container">
+
+                            <span>{{$product['series']}}</span>
+
+                        </div>
+
+                    </div>
+                    {{-- End Art By--}}
+
+
+                </div>
+
+                {{-- End Specs --}}
+
+                
+                
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
 @endsection
