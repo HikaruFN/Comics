@@ -133,6 +133,85 @@ a {
   margin-right: 10px;
 }
 
+.product-top-main {
+  background-color: #0282F9;
+  height: 100px;
+}
+
+.product-top-main .product-card-container {
+  border: 1px solid white;
+  position: relative;
+  top: -250px;
+  height: 290px;
+  width: 190px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.product-top-main .product-card-container span {
+  background-color: #00A9D9;
+  color: white;
+  font-size: 12px;
+}
+
+.product-top-main .product-card-container .half-span {
+  width: 50%;
+}
+
+.product-core-main {
+  display: flex;
+  margin-top: 30px;
+}
+
+.product-core-main .comic-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-core-main .comic-info-container .comic-sale-info-container {
+  display: flex;
+  background-color: #55BA59;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+.product-core-main .comic-info-container .comic-sale-info-container .comic-sale-info-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid black;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.product-core-main .comic-info-container h1 {
+  text-transform: uppercase;
+  color: #003F73;
+}
+
+.product-core-main .comic-info-container a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.product-core-main .comic-info-container span {
+  color: #89E780;
+}
+
+.comic-description-container {
+  margin-top: 15px;
+}
+
+.comic-description-container p {
+  color: #8F887B;
+}
+
 .footer-continer {
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   background-size: cover;

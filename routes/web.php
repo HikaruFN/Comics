@@ -36,8 +36,6 @@ Route::get('/product/{id}', function ($id) {
 
    $product = [];
 
-   
-
     foreach ($comics_array as $item) {
         
         if( $item['id'] == $id ){
@@ -46,8 +44,12 @@ Route::get('/product/{id}', function ($id) {
 
     }
 
-    //dd($product);
+    $data = [
+        'product' => $product
+    ];
 
-    return view('product',);
+    //dd($data);
+
+    return view('product', $data);
 
 })->name('product');

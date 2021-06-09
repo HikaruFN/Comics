@@ -10,7 +10,7 @@
     .footer-links-container{
         display: flex;
         li{
-            color: #8F887B;
+            color: $text-common-special-color;
             margin-bottom: 5px;
         }
         h3{
@@ -30,7 +30,7 @@
 
 .reserved-rights-container{
     p{
-        color: #8F887B;
+        color: $text-common-special-color;
         a{
             text-decoration: none;
             color: #0282F9;
