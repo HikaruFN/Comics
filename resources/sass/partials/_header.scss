@@ -35,8 +35,13 @@
     }
 }
 
+#blue-arrow{
+    color: $primary-color;
+}
+
 .header-search-bar{
     border-bottom: 1px solid $primary-color;
+    padding-left: 40px;
 }
 
 .jumbotron-container{

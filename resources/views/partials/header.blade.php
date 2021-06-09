@@ -36,7 +36,7 @@
                 <a href="">VIDEOS</a>
                 <a href="">FANS</a>
                 <a href="">NEWS</a>
-                <a href="">SHOP <i class="fas fa-sort-down"></i></a>
+                <a href="">SHOP <i id="blue-arrow" class="fas fa-sort-down"></i></a>
             </div>
             {{--End Nav--}}
 

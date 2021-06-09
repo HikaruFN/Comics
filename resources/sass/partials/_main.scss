@@ -169,11 +169,12 @@
 }
 
 .tes-container{
-    height: 500px;
     border: 1px solid #E7E7E7;
     background-color: #F6F6F6;
+    padding-bottom: 40px;
     .tes-content-container{
         display: flex;
+        justify-content: space-between;
         .talent-container{
             display: flex;
             flex-direction: column;

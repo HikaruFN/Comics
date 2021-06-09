@@ -8,12 +8,21 @@
   padding: 20px 300px;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 ul {
   list-style-type: none;
 }
 
+ul li {
+  font-weight: bolder;
+}
+
 a {
   font-weight: bolder;
+  text-decoration: none;
 }
 
 .upper-header-container {
@@ -51,8 +60,13 @@ a {
   color: #0282F9;
 }
 
+#blue-arrow {
+  color: #0282F9;
+}
+
 .header-search-bar {
   border-bottom: 1px solid #0282F9;
+  padding-left: 40px;
 }
 
 .jumbotron-container {
@@ -251,13 +265,14 @@ a {
 }
 
 .tes-container {
-  height: 500px;
   border: 1px solid #E7E7E7;
   background-color: #F6F6F6;
+  padding-bottom: 40px;
 }
 
 .tes-container .tes-content-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .tes-container .tes-content-container .talent-container {

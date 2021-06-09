@@ -10,9 +10,16 @@
 }
 
 //common
+body{
+    font-family: 'Roboto', sans-serif;
+}
 ul{
     list-style-type: none;
+    li{
+        font-weight: bolder;
+    }
 }
 a{
     font-weight: bolder;
+    text-decoration: none;
 }
