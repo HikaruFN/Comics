@@ -210,13 +210,22 @@ a {
 
 .comic-description-container p {
   color: #8F887B;
+  line-height: 2em;
+}
+
+.advertisement-container {
+  margin-left: 20px;
+}
+
+.advertisement-container h3 {
+  text-align: right;
+  color: #8F887B;
 }
 
 .tea-element-container {
   display: flex;
   border-bottom: 1px solid #E7E7E7;
   padding-bottom: 40px;
-  width: 50%;
 }
 
 .tea-element-container .inner-tea-element-container {

@@ -63,7 +63,7 @@
 
             </div>
 
-            <div class="ciao">
+            <div class="advertisement-container">
                 <h3>ADVERTISEMENT</h3>
                 <img src="{{asset('img/adv.jpg')}}" alt="adv.jpg">
             </div>
