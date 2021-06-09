@@ -251,18 +251,72 @@ a {
 }
 
 .tes-container {
-  height: 500px;
+  padding-bottom: 50px;
   border: 1px solid #E7E7E7;
   background-color: #F6F6F6;
 }
 
 .tes-container .tes-content-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .tes-container .tes-content-container .talent-container {
   display: flex;
   flex-direction: column;
+}
+
+.sub-main-nav-container {
+  background-color: #F6F6F6;
+}
+
+.sub-main-nav-container .wrapper-special {
+  padding: 0 300px;
+}
+
+.sub-main-nav-container .sub-main-nav-content {
+  display: flex;
+  align-items: center;
+}
+
+.sub-main-nav-container .sub-main-nav-content .sub-main-nav-option {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  border: 1px solid #E7E7E7;
+  padding: 10px;
+}
+
+.sub-main-nav-container .sub-main-nav-content .sub-main-nav-option h4 {
+  color: #8F887B;
+}
+
+.sub-main-nav-container .sub-main-nav-content .sub-main-nav-option img {
+  width: 40px;
+}
+
+.sub-main-nav-container .sub-main-nav-content .sub-main-nav-option #digital-comic-img {
+  height: 37px;
+  width: 36px;
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) 0 0;
+}
+
+.sub-main-nav-container .sub-main-nav-content .sub-main-nav-option #shop-dc-img {
+  height: 37px;
+  width: 36px;
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) 35px 0;
+}
+
+.sub-main-nav-container .sub-main-nav-content .sub-main-nav-option #comic-shop-locator {
+  height: 37px;
+  width: 36px;
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) 74px 0;
+}
+
+.sub-main-nav-container .sub-main-nav-content .sub-main-nav-option #subscriptiuon {
+  height: 37px;
+  width: 36px;
+  background: url(/images/cta-icons.png?66ce11d0fe1c08d1276451a49fdd1bb9) 110px 0;
 }
 
 .footer-continer {

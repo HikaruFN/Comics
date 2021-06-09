@@ -146,7 +146,7 @@
 
                     </div>
 
-                    {{--Art By--}}
+                    {{--Series--}}
                     <div class="tea-element-container">
                         
                         <div class="inner-tea-element-container">
@@ -160,23 +160,116 @@
                         </div>
 
                     </div>
-                    {{-- End Art By--}}
+                    {{-- End Series--}}
+
+                    {{--Price--}}
+                    <div class="tea-element-container">
+                        
+                        <div class="inner-tea-element-container">
+                            <span>U.S Price: </span>
+                        </div>
+
+                        <div class="artists-links-container">
+
+                            <span>{{$product['price']}}</span>
+
+                        </div>
+
+                    </div>
+                    {{-- End Price--}}
+                    
+                    {{--Sale date--}}
+                    <div class="tea-element-container">
+                        
+                        <div class="inner-tea-element-container">
+                            <span>Sale date: </span>
+                        </div>
+
+                        <div class="artists-links-container">
+
+                            <span>{{$product['sale_date']}}</span>
+
+                        </div>
+
+                    </div>
+                    {{-- End Sale date--}}
 
 
                 </div>
 
                 {{-- End Specs --}}
 
-                
-                
+               
+            </div>
+
+            
+
+        </div>
 
 
+    </div>
+
+     {{-- Sub Main Nav--}}
+                
+     <div class="sub-main-nav-container">
+
+        <div class="wrapper-special">
+
+            <div class="sub-main-nav-content">
+
+                {{--Digital Comics--}}
+                <div class="sub-main-nav-option">
+
+                    <h4>DIGITAL COMICS</h4>
+
+                    <div id="digital-comic-img">
+
+                    </div>
+
+                </div>
+                {{--End Digital Comics--}}
+
+                {{--Digital Comics--}}
+                <div class="sub-main-nav-option">
+
+                    <h4>SHOP DC</h4>
+
+                    <div id="shop-dc-img">
+
+                    </div>
+
+                </div>
+                {{--End Digital Comics--}}
+                {{--Digital Comics--}}
+                <div class="sub-main-nav-option">
+
+                    <h4>COMIC SHOP LOCATOR</h4>
+
+                    <div id="comic-shop-locator">
+
+                    </div>
+
+                </div>
+                {{--End Digital Comics--}}
+                {{--Digital Comics--}}
+                <div class="sub-main-nav-option">
+
+                    <h4>SUBSCRIPTION</h4>
+
+                    <div id="subscriptiuon">
+
+                    </div>
+
+                </div>
+                {{--End Digital Comics--}}
             </div>
 
         </div>
 
 
     </div>
+
+    {{-- Sub Main Nav--}}
 
 
 

@@ -169,14 +169,60 @@
 }
 
 .tes-container{
-    height: 500px;
+    padding-bottom: 50px;
     border: 1px solid #E7E7E7;
     background-color: #F6F6F6;
     .tes-content-container{
         display: flex;
+        justify-content: space-between;
         .talent-container{
             display: flex;
             flex-direction: column;
+        }
+    }
+}
+
+.sub-main-nav-container{
+    background-color: #F6F6F6;
+    .wrapper-special{
+        padding: 0 300px;
+    }
+    .sub-main-nav-content{
+        display: flex;
+        align-items: center;
+        .sub-main-nav-option{
+            display: flex;
+            justify-content: space-between;
+            flex-grow: 1 ;
+            border: 1px solid #E7E7E7;
+            padding: 10px;
+            h4{
+                color: $text-common-special-color;
+               
+            }
+            img{
+                width: 40px;
+            }
+            #digital-comic-img{
+                height: 37px;
+                width: 36px;
+                background: url('../../../public/img/cta-icons.png') 0 0;
+            }
+            #shop-dc-img{
+                height: 37px;
+                width: 36px;
+                background: url('../../../public/img/cta-icons.png') 35px 0;
+            }
+            #comic-shop-locator{
+                height: 37px;
+                width: 36px;
+                background: url('../../../public/img/cta-icons.png') 74px 0;
+            }
+            #subscriptiuon{
+                height: 37px;
+                width: 36px;
+                background: url('../../../public/img/cta-icons.png') 110px 0;
+            }
         }
     }
 }
