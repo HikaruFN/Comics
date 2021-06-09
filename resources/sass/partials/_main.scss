@@ -169,12 +169,11 @@
 }
 
 .tes-container{
-    padding-bottom: 50px;
+    height: 500px;
     border: 1px solid #E7E7E7;
     background-color: #F6F6F6;
     .tes-content-container{
         display: flex;
-        justify-content: space-between;
         .talent-container{
             display: flex;
             flex-direction: column;
@@ -182,26 +181,23 @@
     }
 }
 
-.sub-main-nav-container{
+.sub-main-nav-container-product{
     background-color: #F6F6F6;
     .wrapper-special{
         padding: 0 300px;
     }
-    .sub-main-nav-content{
+    .sub-main-nav-content-product{
         display: flex;
         align-items: center;
-        .sub-main-nav-option{
+        .sub-main-nav-option-product{
             display: flex;
             justify-content: space-between;
             flex-grow: 1 ;
-            border: 1px solid #E7E7E7;
+            border-left: 1px solid #E7E7E7;
             padding: 10px;
             h4{
                 color: $text-common-special-color;
                
-            }
-            img{
-                width: 40px;
             }
             #digital-comic-img{
                 height: 37px;
@@ -218,11 +214,7 @@
                 width: 36px;
                 background: url('../../../public/img/cta-icons.png') 74px 0;
             }
-            #subscriptiuon{
-                height: 37px;
-                width: 36px;
-                background: url('../../../public/img/cta-icons.png') 110px 0;
-            }
+            
         }
     }
 }

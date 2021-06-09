@@ -211,14 +211,14 @@
 
      {{-- Sub Main Nav--}}
                 
-     <div class="sub-main-nav-container">
+     <div class="sub-main-nav-container-product">
 
         <div class="wrapper-special">
 
-            <div class="sub-main-nav-content">
+            <div class="sub-main-nav-content-product">
 
                 {{--Digital Comics--}}
-                <div class="sub-main-nav-option">
+                <div class="sub-main-nav-option-product">
 
                     <h4>DIGITAL COMICS</h4>
 
@@ -230,7 +230,7 @@
                 {{--End Digital Comics--}}
 
                 {{--Digital Comics--}}
-                <div class="sub-main-nav-option">
+                <div class="sub-main-nav-option-product">
 
                     <h4>SHOP DC</h4>
 
@@ -241,7 +241,7 @@
                 </div>
                 {{--End Digital Comics--}}
                 {{--Digital Comics--}}
-                <div class="sub-main-nav-option">
+                <div class="sub-main-nav-option-product">
 
                     <h4>COMIC SHOP LOCATOR</h4>
 
@@ -252,7 +252,7 @@
                 </div>
                 {{--End Digital Comics--}}
                 {{--Digital Comics--}}
-                <div class="sub-main-nav-option">
+                <div class="sub-main-nav-option-product">
 
                     <h4>SUBSCRIPTION</h4>
 
