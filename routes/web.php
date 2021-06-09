@@ -26,3 +26,28 @@ Route::get('/', function () {
     return view('homepage', $data);
 
 })->name('homepage');
+
+
+Route::get('/product/{id}', function ($id) {
+
+   $comics_array = config('comics');
+
+   //dd($comics_array);
+
+   $product = [];
+
+   
+
+    foreach ($comics_array as $item) {
+        
+        if( $item['id'] == $id ){
+            $product = $item;
+        }
+
+    }
+
+    //dd($product);
+
+    return view('product',);
+
+})->name('product');

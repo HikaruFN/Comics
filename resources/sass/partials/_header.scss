@@ -8,8 +8,9 @@
         text-decoration: none;
         color: white;
         padding-left: 20px;
-        font-size: 10px;
+        font-size: 13px;
     }
+    
 }
 
 .main-header-container{
@@ -20,10 +21,22 @@
         a{
             text-decoration: none;
             color: #4C4E4E;
-            padding-left: 20px;
+            margin-left: 20px;
             font-size: 15px;
         }
     }
+}
+
+.active{
+    border-bottom: 3px solid $primary-color;
+    padding-bottom: 62px;
+    span{
+        color: $primary-color;
+    }
+}
+
+.header-search-bar{
+    border-bottom: 1px solid $primary-color;
 }
 
 .jumbotron-container{

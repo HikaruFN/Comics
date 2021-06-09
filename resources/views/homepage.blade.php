@@ -21,7 +21,7 @@
 
                     <div class="comic-card">
 
-                        <img src="{{$item['thumb']}}" alt="{{$item['title']}}">
+                        <a href="{{ route('product', ['id'=>$item['id']]) }}"><img src="{{$item['thumb']}}" alt="{{$item['title']}}"></a>
 
                         <span>{{$item['title']}}</span>
 

@@ -5,9 +5,9 @@
 
         <div class="wrapper">
 
-            <a href="#">DC POWER**** VISA</a>
+            <a href="#">DC POWER™ VISA®</a>
 
-            <a href="#">ADDITIONAL DC SITES</a>
+            <a href="#">ADDITIONAL DC SITES <i class="fas fa-sort-down"></i></a>
 
         </div>
 
@@ -28,7 +28,7 @@
             {{--Nav--}}
             <div class="main-header-nav">
                 <a href="">CHARACTERS</a>
-                <a href="">COMICS</a>
+                <a href="" class="active"> <span>COMICS</span> </a>
                 <a href="">MOVIES</a>
                 <a href="">TV</a>
                 <a href="">GAMES</a>
@@ -36,12 +36,12 @@
                 <a href="">VIDEOS</a>
                 <a href="">FANS</a>
                 <a href="">NEWS</a>
-                <a href="">SHOP</a>
+                <a href="">SHOP <i class="fas fa-sort-down"></i></a>
             </div>
             {{--End Nav--}}
 
             {{-- Search bar --}}
-            <div>
+            <div class="header-search-bar">
                 <a href="">Search</a>
                 <i class="fas fa-search"></i>
             </div>
